@@ -18,9 +18,14 @@ body {
 
 #container {
     background-color: white;
-    width: 15em;
-    height: 25em;
+    width: 15.3em;
+    height: 23.5em;
     border-radius: .8em;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -31,4 +36,22 @@ img {
 #mainContainer {
     margin: 0;
     padding: 0.8em 0.8em;
+}
+
+main p {
+    font-size: 0.7em;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1.5em;
+}
+
+main span {
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+main {
+    margin: 1.5em 1em;
+    text-align: center;
+
 }
