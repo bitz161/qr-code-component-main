@@ -1,0 +1,34 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
+#container {
+    background-color: white;
+    width: 15em;
+    height: 25em;
+    border-radius: .8em;
+}
+
+img {
+    width: 13.3em;
+    border-radius: .8em;
+}
+
+#mainContainer {
+    margin: 0;
+    padding: 0.8em 0.8em;
+}
