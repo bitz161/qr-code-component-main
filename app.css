@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10em;
+    font-size: 1.3em;
 }
 
 #container {
@@ -21,6 +21,7 @@ body {
     width: 15em;
     height: 24em;
     border-radius: .8em;
+    margin-top: 5em;
 }
 
 #imgContainer {
@@ -54,4 +55,11 @@ main {
     margin: 1.5em 1em;
     text-align: center;
 
+}
+
+@media screen and (min-width: 375px) {
+    #container {
+        width: 15em;
+        height: 24em;
+    }
 }
